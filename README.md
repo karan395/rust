@@ -41,7 +41,6 @@ Before building and running PEER, ensure you have completed the Dev Docs Install
 # Build and Run
 To build the node and run it after a successful build, use the following command:
 
-sh
-Copy code
+```sh
 cargo build --release
 ./target/release/peer --dev --tmp
