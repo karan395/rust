@@ -3,7 +3,7 @@
 PEER is a next-generation blockchain innovation. It is a L0 chain that allows the addition of parachains to the blockchain. It is also compatible with Ethereum as it has EVM (Ethereum Virtual Machine) integrated.
 
 <p align="center">
-  <img src="/peer.jpg">
+  <img src="/docs/media/peer.jpg">
 </p>
 
 # Table of Contents
@@ -18,10 +18,6 @@ PEER is a next-generation blockchain innovation. It is a L0 chain that allows th
 # Description
 PEER is a next-generation blockchain innovation that enables the addition of parachains to the blockchain. It offers compatibility with Ethereum through the integration of EVM. This blockchain solution provides advanced features and aims to revolutionize the decentralized ecosystem.
 
-# Contributions & Code of Conduct
-Contributions to the PEER project should follow the guidelines outlined in docs/CONTRIBUTING.adoc. To maintain a respectful and inclusive environment, this project adheres to the Contributor Covenant Code of Conduct.
-
-In the interest of the community, any significant improvements made to PEER's core logic, such as internal consensus, cryptography, or database code, should be contributed back to benefit everyone.
 
 # Features
 PEER incorporates the following features:
@@ -36,11 +32,12 @@ These components form the minimum required setup to start a NPoS (Nominated Proo
 Follow the steps below to get started with PEER.
 
 # Rust Setup
-Before building and running PEER, ensure you have completed the Dev Docs Installation. This will set up the necessary Rust environment.
+Before building and running PEER, ensure you have completed the [Dev Docs](https://docs.substrate.io/install/) Installation. This will set up the necessary Rust environment.
 
 # Build and Run
 To build the node and run it after a successful build, use the following command:
 
 ```sh
+Copy code
 cargo build --release
 ./target/release/peer --dev --tmp
