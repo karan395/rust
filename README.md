@@ -26,7 +26,7 @@ PEER incorporates the following features:
 - Staking related pallets: staking, session, authorship, im-online, offences, utility.
 - Governance related pallets: collective, membership, elections-phragmen, democracy, treasure.
 - xcm.
-- These components form the minimum required setup to start a NPoS (Nominated Proof-of-Stake) testnet.
+  These components form the minimum required setup to start a NPoS (Nominated Proof-of-Stake) testnet.
 
 # Getting Started
 Follow the steps below to get started with PEER.
