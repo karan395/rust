@@ -1,50 +1,47 @@
+</p>PEER</code></h1>
+
+PEER is a next-generation blockchain innovation. It is a L0 chain that allows the addition of parachains to the blockchain. It is also compatible with Ethereum as it has EVM (Ethereum Virtual Machine) integrated.
+
 <p align="center">
   <img src="/peer.jpg">
-</p><h1><code>PEER</code></h1>
+</p>
 
- <strong> PEER is a next-generation blockchain innovation.</strong> 🚀.
-
-
-
-## Contributions & Code of Conduct
-
-Please follow the contributions guidelines as outlined in [`docs/CONTRIBUTING.adoc`](docs/CONTRIBUTING.adoc). In all communications and contributions, this project follows the [Contributor Covenant Code of Conduct](docs/CODE_OF_CONDUCT.md).
-
-## Security
-
-The security policy and procedures can be found in [`docs/SECURITY.md`](docs/SECURITY.md).
-
-## License
-
-- PEER Primitives (`sp-*`), Frame (`frame-*`) and the pallets (`pallets-*`), binaries (`/bin`) and all other utilities are licensed under [Apache 2.0](LICENSE-APACHE2).
-- PEER Client (`/client/*` / `sc-*`) is licensed under [GPL v3.0 with a classpath linking exception](LICENSE-GPL3).
-
-The reason for the split-licensing is to ensure that for the vast majority of teams using 5irechain to create feature-chains, then all changes can be made entirely in Apache2-licensed code, allowing teams full freedom over what and how they release and giving licensing clarity to commercial teams.
-
-In the interests of the community, we require any deeper improvements made to 5irechain's core logic (e.g. 5irechain's internal consensus, crypto or database code) to be contributed back so everyone can benefit.
-
-## Features
-
-This template includes the minimum required components to start a NPoS testnet.
-
-* Consensus related pallets: Babe & GRANDPA
-* Staking related pallets: staking, session, authorship, im-online, offences, utility
-* Governance related pallets: collective, membership, elections-phragmen, democracy, treasure
-* xcm 
+# Table of Contents
+* Description
+* Contributions & Code of Conduct
+* Features
+* Getting Started
+* Rust Setup
+* Build and Run
 
 
-## Getting Started
+# Description
+PEER is a next-generation blockchain innovation that enables the addition of parachains to the blockchain. It offers compatibility with Ethereum through the integration of EVM. This blockchain solution provides advanced features and aims to revolutionize the decentralized ecosystem.
 
-Follow the steps below to get started.
+# Contributions & Code of Conduct
+Contributions to the PEER project should follow the guidelines outlined in docs/CONTRIBUTING.adoc. To maintain a respectful and inclusive environment, this project adheres to the Contributor Covenant Code of Conduct.
 
-### Rust Setup
+In the interest of the community, any significant improvements made to PEER's core logic, such as internal consensus, cryptography, or database code, should be contributed back to benefit everyone.
 
-First, complete the Dev Docs Installation.
+# Features
+PEER incorporates the following features:
 
-### Build and Run
+Consensus related pallets: Babe & GRANDPA
+Staking related pallets: staking, session, authorship, im-online, offences, utility
+Governance related pallets: collective, membership, elections-phragmen, democracy, treasure
+xcm
+These components form the minimum required setup to start a NPoS (Nominated Proof-of-Stake) testnet.
 
-Use the following command to build the node and run it after build successfully:
+# Getting Started
+Follow the steps below to get started with PEER.
+
+# Rust Setup
+Before building and running PEER, ensure you have completed the Dev Docs Installation. This will set up the necessary Rust environment.
+
+# Build and Run
+To build the node and run it after a successful build, use the following command:
 
 sh
+Copy code
 cargo build --release
 ./target/release/peer --dev --tmp
