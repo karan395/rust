@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/peerlogo.jpg">
+  <img src="/peer.jpg">
 </p><h1><code>PEER</code></h1>
 
  <strong> PEER is a next-generation blockchain innovation.</strong> 🚀.
