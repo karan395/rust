@@ -3,7 +3,7 @@
 PEER is a next-generation blockchain innovation. It is a L0 chain that allows the addition of parachains to the blockchain. It is also compatible with Ethereum as it has EVM (Ethereum Virtual Machine) integrated.
 
 <p align="center">
-  <img src="/docs/media/peer.jpg">
+  <img src="/peer.jpg">
 </p>
 
 # Table of Contents
