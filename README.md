@@ -31,10 +31,10 @@ PEER incorporates the following features:
 # Getting Started
 Follow the steps below to get started with PEER.
 
-# Rust Setup
+### Rust Setup
 Before building and running PEER, ensure you have completed the [Dev Docs](https://docs.substrate.io/install/) Installation. This will set up the necessary Rust environment.
 
-# Build and Run
+### Build and Run
 To build the node and run it after a successful build, use the following command:
 
 ```sh
