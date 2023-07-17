@@ -22,10 +22,10 @@ PEER is a next-generation blockchain innovation that enables the addition of par
 # Features
 PEER incorporates the following features:
 
-Consensus related pallets: Babe & GRANDPA
-Staking related pallets: staking, session, authorship, im-online, offences, utility
-Governance related pallets: collective, membership, elections-phragmen, democracy, treasure
-xcm
+Consensus related pallets: Babe & GRANDPA.
+Staking related pallets: staking, session, authorship, im-online, offences, utility.
+Governance related pallets: collective, membership, elections-phragmen, democracy, treasure.
+xcm.
 These components form the minimum required setup to start a NPoS (Nominated Proof-of-Stake) testnet.
 
 # Getting Started
